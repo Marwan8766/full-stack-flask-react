@@ -1,0 +1,67 @@
+/* TablePage.css */
+
+.table-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50%;
+  background-color: #f4f6f9;
+}
+
+.table-wrapper {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 600px;
+  padding: 30px;
+  text-align: center;
+}
+
+.table-header {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table th,
+.table td {
+  padding: 12px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+.table th {
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+.input-cell input {
+  width: 80px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  text-align: center;
+  transition: border-color 0.3s;
+}
+
+.input-cell input:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+.result-cell {
+  font-weight: bold;
+}
+
+.percentage {
+  color: #28a745;
+}
+
+.existing-value-cell {
+  color: black;
+}
